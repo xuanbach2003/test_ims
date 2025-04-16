@@ -1,0 +1,163 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/admin",
+      "regex": "^/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/admin(?:/)?$"
+    },
+    {
+      "page": "/applicants",
+      "regex": "^/applicants(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/applicants(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/grading",
+      "regex": "^/grading(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/grading(?:/)?$"
+    },
+    {
+      "page": "/interview-scheduling",
+      "regex": "^/interview\\-scheduling(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/interview\\-scheduling(?:/)?$"
+    },
+    {
+      "page": "/list/companies",
+      "regex": "^/list/companies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/list/companies(?:/)?$"
+    },
+    {
+      "page": "/list/students",
+      "regex": "^/list/students(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/list/students(?:/)?$"
+    },
+    {
+      "page": "/list/teachers",
+      "regex": "^/list/teachers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/list/teachers(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/registration",
+      "regex": "^/registration(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/registration(?:/)?$"
+    },
+    {
+      "page": "/reportstudent",
+      "regex": "^/reportstudent(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/reportstudent(?:/)?$"
+    },
+    {
+      "page": "/reportsubmission",
+      "regex": "^/reportsubmission(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/reportsubmission(?:/)?$"
+    },
+    {
+      "page": "/reset-password",
+      "regex": "^/reset\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/reset\\-password(?:/)?$"
+    },
+    {
+      "page": "/statistical",
+      "regex": "^/statistical(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/statistical(?:/)?$"
+    },
+    {
+      "page": "/statistical/detail",
+      "regex": "^/statistical/detail(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/statistical/detail(?:/)?$"
+    },
+    {
+      "page": "/status",
+      "regex": "^/status(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/status(?:/)?$"
+    },
+    {
+      "page": "/topicregistration",
+      "regex": "^/topicregistration(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/topicregistration(?:/)?$"
+    },
+    {
+      "page": "/update-password",
+      "regex": "^/update\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/update\\-password(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

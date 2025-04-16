@@ -104,10 +104,10 @@ const uploadDataToServer = async () => {
     return type === "delete" && id ? (
       <form action="" className="p-4 flex flex-col gap-4">
         <span className="text-center font-medium">
-          All data will be lost. Are you sure you want to delete this {table}?
+          Bạn có chắc muốn xóa tài khoản này{table}?
         </span>
         <button className="bg-red-700 text-white py-2 px-4 rounded-md border-none w-max self-center">
-          Delete
+          Xóa
         </button>
       </form>
     ) : type === "create" || type === "update" ? (
@@ -127,7 +127,7 @@ const uploadDataToServer = async () => {
             />
             {excelData.length > 0 && (
             <div className="mt-4">
-              <h3 className="font-medium">Preview Data:</h3>
+              <h3 className="font-medium">Kiểm tra dữ liệu:</h3>
               <ul className="list-disc pl-5">
                 {excelData.map((row, index) => (
                   <li key={index}>{JSON.stringify(row)}</li>
@@ -138,7 +138,7 @@ const uploadDataToServer = async () => {
                 onClick={uploadDataToServer} 
                 className="mt-4 bg-blue-500 text-white py-2 px-4 rounded-md"
               >
-                Upload to Server
+                Đăng lên hệ thống 
               </button>
             </div>
           )}

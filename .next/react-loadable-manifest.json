@@ -1,0 +1,23 @@
+{
+  "components/FormModal.tsx -> ./forms/CompanyForm": {
+    "id": 3307,
+    "files": [
+      "static/chunks/342.389951a40860fd4c.js",
+      "static/chunks/307.16638ea273970329.js"
+    ]
+  },
+  "components/FormModal.tsx -> ./forms/StudentForm": {
+    "id": 7827,
+    "files": [
+      "static/chunks/342.389951a40860fd4c.js",
+      "static/chunks/827.269808b93e40c404.js"
+    ]
+  },
+  "components/FormModal.tsx -> ./forms/TeacherForm": {
+    "id": 4876,
+    "files": [
+      "static/chunks/342.389951a40860fd4c.js",
+      "static/chunks/876.6f0b66f1404c53cb.js"
+    ]
+  }
+}

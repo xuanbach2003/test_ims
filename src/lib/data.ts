@@ -127,6 +127,7 @@ export const studentsData = [
     grade: 3.5,
     class: "Khoa Công nghệ Thông tin",
     subjects: "Khoa học dữ liệu",
+    status: "active", // Thêm trạng thái
   },
   {
     id: 2,
@@ -139,6 +140,7 @@ export const studentsData = [
     grade: 3.8,
     class: "Khoa Công nghệ Thông tin",
     subjects: "An toàn thông tin",
+    status: "inactive", // Thêm trạng thái
   },
   {
     id: 3,
@@ -151,6 +153,7 @@ export const studentsData = [
     grade: 3.2,
     class: "Khoa Công nghệ Thông tin",
     subjects: "Trí tuệ nhân tạo",
+    status: "active", // Thêm trạng thái
   },
   {
     id: 4,
@@ -163,6 +166,7 @@ export const studentsData = [
     grade: 3.7,
     class: "Khoa Công nghệ Thông tin",
     subjects: "Phát triển phần mềm",
+    status: "inactive", // Thêm trạng thái
   },
   {
     id: 5,
@@ -175,6 +179,7 @@ export const studentsData = [
     grade: 3.9,
     class: "Khoa Công nghệ Thông tin",
     subjects: "Hệ thống thông tin",
+    status: "active", // Thêm trạng thái
   },
   {
     id: 6,
@@ -187,6 +192,7 @@ export const studentsData = [
     grade: 3.6,
     class: "Khoa Công nghệ Thông tin",
     subjects: "Mạng máy tính",
+    status: "inactive", // Thêm trạng thái
   },
   {
     id: 7,
@@ -199,6 +205,7 @@ export const studentsData = [
     grade: 3.4,
     class: "Khoa Công nghệ Thông tin",
     subjects: "Công nghệ phần mềm",
+    status: "active", // Thêm trạng thái
   },
   {
     id: 8,
@@ -211,6 +218,7 @@ export const studentsData = [
     grade: 3.3,
     class: "Khoa Công nghệ Thông tin",
     subjects: "Lập trình di động",
+    status: "inactive", // Thêm trạng thái
   },
   {
     id: 9,
@@ -223,6 +231,7 @@ export const studentsData = [
     grade: 3.1,
     class: "Khoa Công nghệ Thông tin",
     subjects: "Phân tích dữ liệu",
+    status: "active", // Thêm trạng thái
   },
   {
     id: 10,
@@ -235,6 +244,7 @@ export const studentsData = [
     grade: 3.8,
     class: "Khoa Công nghệ Thông tin",
     subjects: "Lập trình Python",
+    status: "inactive", // Thêm trạng thái
   },
 ];
 

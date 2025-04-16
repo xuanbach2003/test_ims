@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/macbook/Downloads/test_ims/src/app/%28dashboard%29/layout.tsx"],"sourcesContent":["import AdminNavbar from \"@/components/AdminNavbar\";\nexport default function DashboardLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <div className=\"h-screen flex flex-col\">\n      <div className=\"flex-1 bg-[#F7F8FA] overflow-scroll\">\n        {children}\n      </div>\n    </div>\n  );\n}"],"names":[],"mappings":";;;;;AACe,SAAS,gBAAgB,EAAE,QAAQ,EAAiC;IACjF,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;YAAI,WAAU;sBACZ;;;;;;;;;;;AAIT","debugId":null}}]
+}
