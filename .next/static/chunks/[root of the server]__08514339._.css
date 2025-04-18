@@ -593,10 +593,6 @@
     left: calc(var(--spacing) * 2);
   }
 
-  .left-12 {
-    left: calc(var(--spacing) * 12);
-  }
-
   .left-\[50\%\] {
     left: 50%;
   }
@@ -3337,10 +3333,6 @@
 
   .even\:bg-Yellow:nth-child(2n) {
     background-color: var(--color-Yellow);
-  }
-
-  .even\:bg-gray-50:nth-child(2n) {
-    background-color: var(--color-gray-50);
   }
 
   .even\:bg-slate-50:nth-child(2n) {
